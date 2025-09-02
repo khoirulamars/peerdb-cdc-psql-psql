@@ -1,0 +1,27 @@
+# Logs dan file testing
+*.log
+testing-results/*.log
+
+# Volume data
+volumes/data/
+
+# Environment files
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Docker volumes
+postgres_data/
+temporal_data/
+minio_data/
