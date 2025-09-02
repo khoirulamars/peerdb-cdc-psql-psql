@@ -10,9 +10,9 @@ PeerDB adalah platform CDC (Change Data Capture) real-time yang memungkinkan rep
 ```
 peerdb/
 ├── docker-compose.yml          # Konfigurasi container PeerDB
-├── run-peerdb.sh              # Script untuk menjalankan PeerDB
+├── run-peerdb.sh               # Script untuk menjalankan PeerDB
 ├── quickstart_prepare_peers.sh # Script setup database
-├── insert.ps1                 # Script stress test INSERT
+├── insert.ps1                  # Script stress test INSERT
 ├── monitoring.ps1             # Script monitoring pipeline
 ├── testing-results/           # Folder hasil testing dan logs
 └── README.md                  # Dokumentasi ini
@@ -23,7 +23,7 @@ peerdb/
 ### 1. Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/khoirulamars/peerdb-cdc-psql-psql
 cd peerdb
 ```
 
