@@ -168,15 +168,6 @@ Pastikan tidak terjadi error.
 10. **Analysis Summary**: Rekomendasi berdasarkan analisis
 
 
-## 🔍 Akses Point Penting
-
-| Service | URL | Deskripsi |
-|---------|-----|-----------|
-| PeerDB UI | http://localhost:3000 | Interface web utama PeerDB |
-| Temporal UI | http://localhost:8085 | Monitoring workflow Temporal |
-| Catalog DB | localhost:9901 | Database catalog PostgreSQL |
-| MinIO | http://localhost:9001 | Object storage (jika diperlukan) |
-
 ## 🐛 Troubleshooting
 
 ### 1. Container Tidak Start
