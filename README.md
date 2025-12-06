@@ -237,13 +237,4 @@ docker compose up -d
 5. **Data Replicated** ke database target
 6. **Monitoring** melacak status dan performa
 
-## 📞 Support
-
-Jika mengalami masalah:
-
-1. Jalankan monitoring script untuk diagnosis
-2. Cek logs di folder `testing-results/`
-3. Periksa status container dengan `docker ps`
-4. Akses PeerDB UI untuk visual monitoring
-
 ---
