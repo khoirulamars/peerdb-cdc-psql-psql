@@ -188,7 +188,7 @@ services:
       - flow-api
 
   minio:
-    image: bitnami/minio:2025.7.23@sha256:a70e90bb70f4732221901de53502334cef58665c6c4275a014d47adad10e1883
+    image: soldevelo/minio:2025.7.23@sha256:4576b61468007217b6868996ce000258d088d21437952ceb87176da203c792df
     restart: unless-stopped
     volumes:
       - minio-data:/data
